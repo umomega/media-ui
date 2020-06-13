@@ -1,0 +1,38 @@
+{
+    "name": "umomega-media",
+    "version": "1.2.0",
+    "description": "Media UI Components For umΩ Apps",
+    "sass": "media-ui.sass",
+    "main": "media-ui.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umomega/media-ui.git"
+    },
+    "keywords": [
+        "umomega",
+        "ui",
+        "media",
+        "front-end",
+        "js"
+    ],
+    "tagsor": {
+        "name": "Egemen Berker Kızılcan",
+        "email": "egemen@umomega.com",
+        "url": "https://umomega.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/umomega/media-ui/issues"
+    },
+    "homepage": "https://github.com/umomega/media-ui#readme",
+    "files": [
+        "js",
+        "LICENSE",
+        "README.md",
+        "media-ui.sass",
+        "media-ui.js"
+    ],
+    "dependencies": {
+        "vue-jcrop": "^1.0.3"
+    }
+}
