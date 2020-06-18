@@ -56,8 +56,8 @@
 			<p class="datable-no-results is-size-5 has-color-primary" v-text="trans.get('foundation::general.no_results_found')"></p>
 		</div>
 
-		<div class="columns is-multiline">
-			<div class="column is-2" v-for="medium in content.data">
+		<div class="columns is-multiline is-mobile is-variable is-1-mobile">
+			<div class="column is-one-third-mobile is-one-quarter-tablet is-one-fifth-widescreen is-2-fullhd" v-for="medium in content.data">
 				<div class="medium">
 					<div class="medium-thumbnail">
 						<img class="medium-thumbnail-image" v-if="medium.thumbnail_url" :src="medium.thumbnail_url">

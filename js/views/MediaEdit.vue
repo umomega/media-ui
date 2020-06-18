@@ -1,7 +1,7 @@
 <template>
 	<div :class="isLoaded ? 'reveal is-loaded' : 'reveal'">
 		<div class="has-text-centered mb-lg">
-			<p class="is-size-4">{{ resource.name }}</p>
+			<p class="is-size-4 is-size-5-mobile">{{ resource.name }}</p>
 			<p class="is-size-8 has-color-grey-darker" v-text="metadata"></p>
 		</div>
 

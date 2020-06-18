@@ -1,7 +1,7 @@
 <template>
 	<div :class="isLoaded ? 'reveal is-loaded' : 'reveal'">
 		<div class="has-text-centered mb-lg">
-			<p class="is-size-4">{{ resource.name }}</p>
+			<p class="is-size-4 is-size-5-mobile">{{ resource.name }}</p>
 			<p class="is-size-8 has-color-grey-darker" v-text="metadata"></p>
 		</div>
 		
@@ -12,7 +12,7 @@
 
 		<div class="paper">
 			<div class="paper-header has-background-primary">
-				<div class="level">
+				<div class="level is-mobile">
 					<div class="level-left">
 						<a href="#" :class="cropModeActive ? 'pill is-bg is-active' : 'pill is-bg'" @click.prevent="determineCrop()" :title="trans.get('media::media.crop')">
 							<span class="icon is-medium"><i class="fas fa-lg fa-crop-alt"></i></span>
