@@ -70,7 +70,8 @@ export default {
 			{
 				type: 'TextField',
 				name: 'alttext',
-				label: this.$root.trans.get('validation.attributes.alttext')
+				label: this.$root.trans.get('validation.attributes.alttext'),
+				hint: this.$root.trans.get('media::media.hint_alttext')
 			},
 			{
 				type: 'TextField',
@@ -94,7 +95,8 @@ export default {
 				type: 'TextField',
 				name: 'public_url',
 				label: this.$root.trans.get('validation.attributes.public_url'),
-				options: {required: true, readonly: true}
+				options: {required: true, readonly: true},
+				hint: this.$root.trans.get('media::media.hint_public_url')
 			}
 		],
 		schemaTertiary: [

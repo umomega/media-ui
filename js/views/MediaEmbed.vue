@@ -30,7 +30,8 @@ export default {
 				type: 'TextField',
 				name: 'url',
 				label: this.$root.trans.get('validation.attributes.url'),
-				options: {required: true}
+				options: {required: true},
+				hint: this.$root.trans.get('media::media.hint_embed')
 			}
 		]
 	}}
