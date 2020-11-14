@@ -1,6 +1,6 @@
 {
     "name": "umomega-media",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "description": "Media UI Components For umΩ Apps",
     "sass": "media-ui.sass",
     "main": "media-ui.js",

@@ -1,6 +1,6 @@
 <template>
 	<div :class="isLoaded ? 'paper reveal is-loaded' : 'paper reveal'">
-		<form method="POST" action="/api/media/embed" @submit.prevent="requestStore('media/embed', 'media.edit')" @keydown="form.errors.clear($event.target.name)" autocomplete="off">
+		<form method="POST" action="/api/media/embed" @submit.prevent="requestStore('media/embed', 'media.edit')" autocomplete="off">
 			<div class="paper__body">
 				<div class="paper__main">
 					<FormBody :schema="schema" v-model="form" :readonly="false"/>
