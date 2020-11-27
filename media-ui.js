@@ -5,6 +5,7 @@ import MediaIndex from './js/views/MediaIndex'
 import MediaUpload from './js/views/MediaUpload'
 
 import Uploader from './js/mixins/Uploader'
+import Uploadable from './js/mixins/Uploadable'
 
 import UploadCard from './js/components/UploadCard'
 
@@ -17,7 +18,6 @@ import MediumUploaded from './js/events/MediumUploaded'
 
 export {
 	MediaEdit, MediaEmbed, MediaImage, MediaIndex, MediaUpload,
-	Uploader,
-	UploadCard,
+	Uploader, Uploadable, UploadCard,
 	ImageUpdated, MediaDestroyedBulk, MediumDestroyed, MediumEmbedded, MediumUpdated, MediumUploaded
 }
