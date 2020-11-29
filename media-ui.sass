@@ -21,6 +21,15 @@
 	transition: transform $duration-medium, background-color $duration-medium, border-color $duration-medium
 	position: relative
 
+	&--highlighted
+		border-color: $primary
+		box-shadow: 0 0 6px rgba($primary, 0.8)
+
+	&--static
+		transform: none !important
+		cursor: pointer
+		transition: box-shadow $duration-short, border-color $duration-short
+
 	&.is-invalid
 		background-color: $danger
 		border-color: $danger-light

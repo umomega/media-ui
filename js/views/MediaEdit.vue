@@ -29,7 +29,7 @@
 				</a>
 			</PaperHeader>
 			
-			<form method="POST" action="/api/media" @submit.prevent="requestUpdate('media')" @keydown="clearError($event.target.name)" autocomplete="off">
+			<form method="POST" action="/api/media" @submit.prevent="requestUpdate('media')" @change="clearError($event.target.name)" autocomplete="off">
 				
 				<div class="paper__body">
 					<div class="paper__main">

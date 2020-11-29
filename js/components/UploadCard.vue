@@ -1,5 +1,5 @@
 <template>
-	<div class="column is-2">
+	<div class="column is-one-third-mobile is-one-quarter-tablet is-one-fifth-widescreen is-2-fullhd">
 		<div :class="isInvalid ? 'medium is-invalid' : 'medium'">
 			<router-link v-if="medium.id" :to="{ name: 'media.edit', params: {id: medium.id} }" class="medium-overlay-link"/>
 			<div class="medium-thumbnail">

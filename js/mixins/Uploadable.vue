@@ -36,7 +36,8 @@ export default {
 
 				Event.$emit('upload-complete', {
 					name: self.name + (self.locale ? self.locale : ''),
-					payload: response.data.payload
+					payload: response.data.payload,
+					file: self.file
 				})
 			})
 			.catch(function(error) {

@@ -10,7 +10,7 @@
 			<p class="is-size-9 mb-xxs">{{ trans.get('media::media.allowed_extensions') }}<span class="has-text-weight-bold">{{ $root.shared.allowed_extensions.join(', ') }}</span></p>
 			<p class="is-size-9">{{ trans.get('media::media.allowed_size') }} <span class="has-text-weight-bold">{{ readableFileSize($root.shared.allowed_size) }}</span></p>
 		</div>
-		<div class="columns is-multiline">
+		<div class="columns is-multiline is-mobile is-variable is-1-mobile">
 			<UploadCard v-for="(file, index) in files" :file="file" :key="index"/>
 		</div>
 	</div>
