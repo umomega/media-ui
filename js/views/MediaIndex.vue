@@ -156,7 +156,7 @@ export default {
 			Event.$emit('delete-modal-open', { bulk: false, route: 'media/' + id })
 		},
 		thumbnailIcon(type) {
-			return 'fas fa-3x fa-' + (type == 'document' ? 'file' : 'file' + type)
+			return 'fas fa-3x fa-' + (type == 'document' ? 'file' : 'file-' + type)
 		}
 	}
 }

@@ -11,7 +11,7 @@
 				<source :src="resource.public_url" :type="resource.metadata.mimetype">
 			</video>
 			<audio v-if="resource.type == 'audio'" :src="resource.public_url" controls></audio>
-			<div v-if="resource.type == 'embed'" v-html="resource.metadata.code.html"></div>
+			<div v-if="resource.type == 'embed' && resource.metadata.code && resource.metadata.code.html" v-html="resource.metadata.code.html"></div>
 		</div>
 		
 		<tabs v-if="resource.type == 'image'" class="is-marginless" :tabs="[
