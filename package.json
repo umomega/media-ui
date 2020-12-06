@@ -1,6 +1,6 @@
 {
     "name": "umomega-media",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "description": "Media UI Components For umΩ Apps",
     "sass": "media-ui.sass",
     "main": "media-ui.js",
@@ -33,6 +33,7 @@
         "media-ui.js"
     ],
     "dependencies": {
-        "vue-jcrop": "^1.0.3"
+        "vue-jcrop": "^1.0.3",
+        "umomega-foundation": "^1.19.6"
     }
 }
